@@ -14,12 +14,28 @@ body {
 }
 
 img#phone{
-    display: block;
-    margin: auto;
+    position: absolute;
+    top: 40%;
+    left: 30%;
 }
 
 iframe {
-    display: block;
-    margin: auto;
+    position: absolute;
+    top: 8%;
+    left: 38%;
     height: 500px;
+}
+
+#redes {
+    position: absolute;
+    top: 8%;
+    left: 93%;
+}
+
+.logos{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin-bottom: 10px;
 }
