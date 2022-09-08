@@ -43,19 +43,25 @@ iframe#frame {
 }
 
 #redes {
-    position: absolute;
-    top: 8%;
-    left: 91%;
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 15px;
 }
 
 img{
     width: 60px;
-    height: 60px;
-    border-radius: 50px;
-    border: 1px solid black;
     margin-bottom: 15px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.198);
+    /* Borda faz parte da caixa */
+    box-sizing: border-box;
 }
 
 img:hover{
-    border: 5px solid green;
+    border: 2px solid white;
+    transform: translate(-5px, -3px);
+    /* Uma transição do transforme e borda acima*/
+    transition: transform .5s, boder .7s;
 }
